@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap");
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+.banner-header {
+  height: 747px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(./img/fon.png);
+}
+
+.banner-header-fon {
+  background: rgba(37 43 73 / 80%);
+  width: 100%;
+  height: 747px;
+}
+
+/* HEADER */
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid #BABBC5;
+}
+
+.li-fon {
+  display: flex;
+}
+.li-fon li {
+  list-style-type: none;
+  width: 134px;
+  text-align: center;
+  height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid rgba(186 187 197 / 0);
+}
+
+.li-fon li:hover {
+  border-color: #BABBC5;
+  width: 134px;
+}
+
+.li-fon li a {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+/* BANNER */
+
+.title-ban {
+    margin-top: 130px;
+  }
+  
+  .title-ban h1 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 64px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .discription-ban {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+  }
+
+  .btn-ban {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 79px;
+    cursor: pointer;
+
+}
+
+.btn-ban button{
+    background: #FF4343;
+    max-width: 370px;
+    width: 100%;
+    height: 77px;
+    border: none;
+}
+
+.btn-ban button a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn-ban button:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}

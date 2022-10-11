@@ -1,0 +1,22 @@
+.work{
+    margin-top: 133px;
+}
+
+.work-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-img img{
+    margin: 0;
+    max-width: 378px;
+    width: 25%;
+    height: 340px;
+    background-color: rgba(255, 67, 67, 0);
+    
+}
+
+.work-img img:hover{
+    background: rgba(255, 67, 67, 0.8);
+    transition: 0.3s;
+}
