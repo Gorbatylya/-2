@@ -5,18 +5,25 @@
 .work-img{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
 }
 
-.work-img img{
-    margin: 0;
+.work-img1{
+    padding: 0;
     max-width: 378px;
     width: 25%;
     height: 340px;
     background-color: rgba(255, 67, 67, 0);
-    
+    position:relative;
 }
 
-.work-img img:hover{
+.work-img1:hover::after{
+    content: "";
     background: rgba(255, 67, 67, 0.8);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
     transition: 0.3s;
 }

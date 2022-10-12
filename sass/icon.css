@@ -4,16 +4,13 @@
 .icon-row {
     display: flex;
     flex-wrap: wrap;
-    margin:0 -31px;
+    margin:0 -15px;
 
 }
 .colon-icon {
     max-width: 370px;
-    width: 33,33%;
     height: 305px;
     padding: 0 15px;
-    /* width: calc(100%/12*3-62px); */
-    margin: 0;
 }
 
 .colon-icon:last-child{
