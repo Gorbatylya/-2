@@ -1,0 +1,49 @@
+.download {
+    margin-top: 114px;
+}
+
+.down-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.down-discription {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+
+.down-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 47px;
+    cursor: pointer;
+}
+
+.down-button button{
+    background: #FF4343;
+    border: none;
+    width: 369px;
+    max-height: 78px;
+    cursor: pointer;
+}
+
+.down-button button:hover{
+    background: #E71414;
+}
+
+.down-button p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

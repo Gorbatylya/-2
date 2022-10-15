@@ -1,0 +1,51 @@
+.ourteam {
+    margin-top: 114px;
+}
+
+.persons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.person-card {
+    display: flex;
+    margin:0 15px;
+    flex-direction: column;
+    max-width: 270px;
+}
+
+.ourteam-name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D3033;
+    margin: 30px 0 0;
+}
+.ourteam-profession {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FF4343;
+    margin: 5px 0 0;
+}
+.ourteam-discription {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #6C7279;
+    margin: 18px 0 0;
+}
+
+.ourteam-icon-face {
+    display: flex;
+    margin-top: 38px;
+}
+
+.ourteam-icon-face a{
+    margin-right: 6px;
+}
