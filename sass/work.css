@@ -15,6 +15,7 @@
     height: 340px;
     background-color: rgba(255, 67, 67, 0);
     position: relative;
+    z-index: 1;
 }
 
 .work-img1:hover::after{
@@ -28,8 +29,9 @@
     transition: 0.3s;
 }
 
-.work-title, .work-discription{
+.work-text{
     opacity: 1;
+    z-index: 2;
     position: absolute;
 }
 
@@ -39,8 +41,9 @@
     font-weight: 900;
     font-size: 24px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000;
     text-align: center;
+    width: 100%;
 }
 
 .work-discription{

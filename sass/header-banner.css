@@ -1,5 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap");
 
+@media (max-width: 1200px) {
+  .container{
+      max-width: 970px;
+  }
+
+  .icon-row {
+    text-align: center;
+  }
+
+  .colon-icon{
+      max-width: 314px;
+      height: 237px;
+      padding: 0 10px;
+  }
+
+  .colon-icon:last-child{
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .container{
+      max-width: 750px;
+  }
+
+  .icon-row {
+    margin:0 -10px;
+  }
+
+  .colon-icon{
+      padding: 0 10px;
+  }
+
+  .colon-icon:last-child{
+    padding: 0;
+  }
+
+  .work-img1{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+  max-width: 257px;
+  width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container{
+      max-width: 480px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container{
+      max-width: none;
+  }
+}
+
 .container {
   max-width: 1170px;
   width: 100%;
