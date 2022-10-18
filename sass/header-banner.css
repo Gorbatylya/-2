@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap");
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .container{
       max-width: 970px;
   }
@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .container{
       max-width: 750px;
   }
@@ -47,17 +47,36 @@
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container{
-      max-width: 480px;
+    max-width: 315px;
+}
+
+  .menu-btn{
+    height: 18px;
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .menu-btn div {
+    height: 3px;
+    background: #fff;
+    width: 100%;
+    transition: .3s ease;
+  }
+
+  .header-menu{
+    display: none;
+  }
+
+  .title-ban h1{
+    font-size: 36px;
   }
 }
 
-@media (max-width: 500px) {
-  .container{
-      max-width: none;
-  }
-}
 
 .container {
   max-width: 1170px;
@@ -91,6 +110,7 @@
 }
 
 .li-fon {
+  margin: 0;
   display: flex;
 }
 .li-fon li {

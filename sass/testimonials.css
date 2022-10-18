@@ -1,0 +1,36 @@
+.testimonials{
+    margin-top: 114px;
+}
+
+.carousel-inner{
+    height: 490px;
+}
+
+.carousel-item{
+    display: flex;
+    background-color: #5C3249;
+    position: relative;
+}
+
+.carousel-item-img{
+    width: 50%;
+    margin-right: auto;
+}
+
+.carousel-item-bg{
+    background-color: #5C3249;
+    width: 50%;
+    margin-left: auto;
+    /* position: relative;
+    z-index: 1; */
+}
+
+.test-item-text{
+    font-family: 'Cardo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #000;
+    margin-left: auto;
+}
