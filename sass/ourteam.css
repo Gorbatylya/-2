@@ -2,21 +2,21 @@
     margin-top: 114px;
 }
 
-.persons{
+.ourteam__row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
     justify-content: center;
 }
 
-.person-card {
+.ourteam__item {
     display: flex;
     margin:0 15px;
     flex-direction: column;
     max-width: 270px;
 }
 
-.ourteam-name {
+.item-ourteam__name {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -24,7 +24,7 @@
     color: #2D3033;
     margin: 30px 0 0;
 }
-.ourteam-profession {
+.item-ourteam__profession {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -33,7 +33,7 @@
     color: #FF4343;
     margin: 5px 0 0;
 }
-.ourteam-discription {
+.item-ourteam__discription {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -42,11 +42,12 @@
     margin: 18px 0 0;
 }
 
-.ourteam-icon-face {
+.item-ourteam__icon {
     display: flex;
     margin-top: 38px;
 }
 
-.ourteam-icon-face a{
+.item-ourteam__icon a{
     margin-right: 6px;
 }
+
